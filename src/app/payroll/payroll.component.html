@@ -1,0 +1,54 @@
+<div *ngIf="close" class="main1">
+    <br>
+    <div class="main">
+        <table>
+            <tr>
+                <th>Employee Id</th>
+                <th>Employee Name</th>
+                <th>Designation</th>
+                <th>Date of Joining</th>
+                <th>Total Pay</th>
+                <th>Bonus</th>
+                <th>View Details</th>
+            </tr>
+            <tr *ngFor="let d of data">
+                <td>{{d.employeeid}}</td>
+                <td>{{d.fullname}}</td>
+                <td>{{d.designation}}</td>
+                <td>{{d.dateofjoining}}</td>
+                <td>{{d.salary}}</td>
+                <td>{{d.bonus}}</td>
+                <td><button (click)="view(d.id)"><i class="bi bi-eye-fill"></i></button></td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+</div>
+
+<div id="main" *ngIf="!close">
+    <br><br><br><br>
+    <button (click)="close_click()" style="background:none;margin-left:942px;"><i class="bi bi-x-circle-fill"></i></button>
+    <table style="margin:25px;margin-left:45px;margin-top:-22px;" border="0.5">
+    <tr>
+        <td class="tdata1">Employee Id: {{data1.employeeid}}</td>
+        <td class="tdata1">Employee Name: {{data1.fullname}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Designation: {{data1.designation}}</td>
+        <td class="tdata1">Date of Joining: {{data1.dateofjoining}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Total Pay: {{data1.salary}}</td>
+        <td class="tdata1">Bonus: {{data1.bonus}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Professional Tax: {{data1.professionaltax}}</td>
+        <td class="tdata1">Employee Pf: {{data1.employeepf}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Employer Pf: {{data1.employerpf}}</td>
+        <td class="tdata1">Variable Pay: {{data1.variablepay}}</td>
+    </tr>
+    </table>
+    <!-- <button  class="submit" (click)="close_click()">close</button> -->
+</div>

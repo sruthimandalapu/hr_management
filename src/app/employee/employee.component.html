@@ -1,0 +1,76 @@
+<div class="main" *ngIf="close">
+<form>
+    <input type="text" placeholder="Search via empid/name..." name="search" [(ngModel)]="s">
+    &nbsp;
+    <button type="submit" (click)="submit()"><i class="bi bi-person-fill-add"></i></button>
+</form>
+<table>
+    <tr>
+        <th>Employee ID</th>
+        <th>Full Name</th>
+        <th>Email ID</th>
+        <th>Designation</th>
+        <th>View</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <tbody *ngFor="let d of data">
+    <tr *ngIf="search(d.employeeid,d.fullname)">
+        <td>{{d.employeeid}}</td>
+        <td>{{d.fullname}}</td>
+        <td>{{d.emailid}}</td>
+        <td>{{d.designation}}</td>
+        <td><button class="delete" (click)="open(d.id)"><i style="font-size:20px;" class="bi bi-eye-fill"></i></button></td>
+        <td><a href="editemployee/{{d.id}}"><i class="bi bi-pencil-square"></i></a></td>
+        <td><a href="deleteemployee/{{d.id}}"><i class="bi bi-trash3-fill"></i></a></td>
+    </tr>
+    </tbody>
+</table>
+</div>
+<div id="main" *ngIf="!close">
+    <br>
+    <button (click)="close_click()" style="background:none;margin-left:949px;margin-top:2px;"><i class="bi bi-x-circle-fill"></i></button>
+    <table style="margin:25px;margin-left:41px;margin-top:-20px;" border="0.5">
+    <tr>
+        <td class="tdata1">Employee Id: {{data1.employeeid}}</td>
+        <td class="tdata1">Full Name: {{data1.fullname}}</td>
+        <td class="tdata1">Personal Email Id: {{data1.personalemailid}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Mail Id: {{data1.emailid}}</td>
+        <td class="tdata1">Contact Number: {{data1.contactnumber}}</td>
+        <td class="tdata1">Enterprise: {{data1.enterprise}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Date of Joining: {{data1.dateofjoining}}</td>
+        <td class="tdata1">Department: {{data1.department}}</td>
+        <td class="tdata1">Designation: {{data1.designation}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Date of Birth: {{data1.dateofbirth}}</td>
+        <td class="tdata1">Age: {{data1.age}}</td>
+        <td class="tdata1">Gender: {{data1.gender}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">State/Country: {{data1.state}}</td>
+        <td class="tdata1">City: {{data1.city}}</td>
+        <td class="tdata1">Street: {{data1.street}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Pincode: {{data1.pincode}}</td>
+        <td class="tdata1">Qualification:{{data1.qualification}}</td>
+        <td class="tdata1">Passed Out Year: {{data1.passedoutyear}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Skill Sets: {{data1.skillsets}}</td>
+        <td class="tdata1">Working Domain: {{data1.workingdomain}}</td>
+        <td class="tdata1">Experience: {{data1.experience}}</td>
+    </tr>
+    <tr>
+        <td class="tdata1">Location: {{data1.location}}</td>
+        <td class="tdata1">Salary: {{data1.salary}}</td>
+        <td class="tdata1">Bonus: {{data1.bonus}}</td>
+    </tr>
+    </table>
+    <!-- <button  class="submit" (click)="close_click()">close</button> -->
+</div>

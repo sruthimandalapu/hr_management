@@ -1,0 +1,88 @@
+
+<div style="overflow-y:hidden;">
+<div style="margin:20px;overflow-y:hidden;">
+  <br>
+  <input type="text" placeholder="Search via empid/name..." name="search" [(ngModel)]="s">
+  <button type="submit" (click)="submit()"><i class="bi bi-search"></i></button>
+  <br><br>
+
+  <div *ngIf="s!='' && find" style="text-align:center;color:rgba(0,0,0,0.45);font-size:15px;">
+    Employee ID: {{data1.employeeid}}<br><br>
+    Employee Name: {{data1.fullname}}<br><br>
+    <span style="text-align:left;margin-left:0px;">Plot1: Worked Hours! &nbsp;&nbsp;&nbsp; Plot2: Logged off Hours!</span>
+  </div>
+  <br><br>
+
+  <div *ngIf="s!='' && find">
+  <div style="float:left;vertical-align:middle;margin-left:40px;margin-top:5px;">
+  <div style="color:black;width:250px;height:19px;background:#B2BEB5;margin:9px;margin-top:0px;"></div>
+  <div style="color:black;width:200px;height:19px;background:#8A9A5B;margin:9px;"></div>
+  <div style="color:black;width:150px;height:19px;background:#7393B3;margin:9px;"></div>
+  <div style="color:black;width:100px;height:19px;background:#36454F;margin:9px;;"></div>
+  <div style="color:black;width:50px;height:19px;background:#D3D3D3;margin:9px;"></div>
+  </div>
+  <div style="margin:0px;margin-left:0px;float:left;margin-top:5px;" id="my-pie-chart-container">
+    <div style="margin-right:70px;vertical-align:middle;" id="legenda">
+      <div style="margin-top:0px;" class="entry">
+        <div style="margin-top:0px;" id="color-brown" class="entry-color"></div>
+        <div class="entry-text">{{arr1[0]}}</div>
+      </div>
+      <div class="entry">
+        <div id="color-black" class="entry-color"></div>
+        <div class="entry-text">{{arr1[1]}}</div>
+      </div>
+      <div class="entry">
+        <div id="color-blue" class="entry-color"></div>
+        <div class="entry-text">{{arr1[2]}}</div>
+      </div>
+      <div class="entry">
+        <div id="color-green" class="entry-color"></div>
+        <div class="entry-text">{{arr1[3]}}</div>
+      </div>
+      <div class="entry">
+        <div id="color-red" class="entry-color"></div>
+        <div class="entry-text">{{arr1[4]}}</div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div *ngIf="s!='' && find">
+  <div style="float:left;vertical-align:middle;margin-top:5px;">
+    <div style="color:black;width:250px;height:19px;background:#B2BEB5;margin:9px;margin-top:0px;"></div>
+    <div style="color:black;width:200px;height:19px;background:#8A9A5B;margin:9px;"></div>
+    <div style="color:black;width:150px;height:19px;background:#7393B3;margin:9px;"></div>
+    <div style="color:black;width:100px;height:19px;background:#36454F;margin:9px;;"></div>
+    <div style="color:black;width:50px;height:19px;background:#D3D3D3;margin:9px;"></div>
+    </div>
+    <div style="margin:0px;margin-left:0px;float:left;margin-top:5px;" id="my-pie-chart-container">
+      <div style="margin-right:70px;vertical-align:middle;" id="legenda">
+        <div style="margin-top:0px;" class="entry">
+          <div style="margin-top:0px;" id="color-brown" class="entry-color"></div>
+          <div class="entry-text">{{arr2[0]}}</div>
+        </div>
+        <div class="entry">
+          <div id="color-black" class="entry-color"></div>
+          <div class="entry-text">{{arr2[1]}}</div>
+        </div>
+        <div class="entry">
+          <div id="color-blue" class="entry-color"></div>
+          <div class="entry-text">{{arr2[2]}}</div>
+        </div>
+        <div class="entry">
+          <div id="color-green" class="entry-color"></div>
+          <div class="entry-text">{{arr2[3]}}</div>
+        </div>
+        <div class="entry">
+          <div id="color-red" class="entry-color"></div>
+          <div class="entry-text">{{arr2[4]}}</div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  <div *ngIf="s=='' || !find">
+    <span style="margin-left:365px;;color:rgba(0,0,0,0.4)">Cannot find the search keyword!</span>
+  </div>
+</div>
+</div>
