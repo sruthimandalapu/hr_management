@@ -18,7 +18,7 @@
       "city": "Guntur",
       "street": "7th line Chandramouli Nagar",
       "pincode": 522007,
-      "qualication": "btech",
+      "qualification": "btech",
       "passedoutyear": 2022,
       "skillsets": "Python, Java, Dotnet, Angular",
       "workingdomain": "Angular",
@@ -30,19 +30,19 @@
       "employeepf": 1800,
       "employerpf": 1800,
       "variablepay": 40000,
-      "attendeddays":{
-        "Nov_2022":22,
-        "Dec_2022":21,
-        "Jan_2023":22,
-        "Feb_2023":20,
-        "Mar_2023":24
+      "attendeddays": {
+        "Nov_2022": 22,
+        "Dec_2022": 21,
+        "Jan_2023": 22,
+        "Feb_2023": 20,
+        "Mar_2023": 24
       },
-      "leavedays":{
-        "Nov_2022":1,
-        "Dec_2022":3,
-        "Jan_2023":0,
-        "Feb_2023":4,
-        "Mar_2023":1
+      "leavedays": {
+        "Nov_2022": 1,
+        "Dec_2022": 3,
+        "Jan_2023": 0,
+        "Feb_2023": 4,
+        "Mar_2023": 1
       }
     },
     {
@@ -63,7 +63,7 @@
       "city": "Sardar Bazar",
       "street": "850 Del Mar Drive",
       "pincode": 600567,
-      "qualication": "btech",
+      "qualification": "btech",
       "passedoutyear": 2021,
       "skillsets": "Java, Angular",
       "workingdomain": "Java",
@@ -75,19 +75,19 @@
       "employeepf": 1800,
       "employerpf": 1800,
       "variablepay": 40000,
-      "attendeddays":{
-        "Nov_2022":26,
-        "Dec_2022":25,
-        "Jan_2023":24,
-        "Feb_2023":20,
-        "Mar_2023":22
+      "attendeddays": {
+        "Nov_2022": 26,
+        "Dec_2022": 25,
+        "Jan_2023": 24,
+        "Feb_2023": 20,
+        "Mar_2023": 22
       },
-      "leavedays":{
-        "Nov_2022":0,
-        "Dec_2022":0,
-        "Jan_2023":1,
-        "Feb_2023":2,
-        "Mar_2023":1
+      "leavedays": {
+        "Nov_2022": 0,
+        "Dec_2022": 0,
+        "Jan_2023": 1,
+        "Feb_2023": 2,
+        "Mar_2023": 1
       }
     },
     {
@@ -108,7 +108,7 @@
       "city": "Hyderabad",
       "street": "Prgathi Nagar",
       "pincode": 700075,
-      "qualication": "btech",
+      "qualification": "btech",
       "passedoutyear": 2020,
       "skillsets": "MS Word, Excel, Managing data",
       "workingdomain": "Data Analysis",
@@ -120,19 +120,19 @@
       "employeepf": 1800,
       "employerpf": 1800,
       "variablepay": 0,
-      "attendeddays":{
-        "Nov_2022":25,
-        "Dec_2022":21,
-        "Jan_2023":23,
-        "Feb_2023":22,
-        "Mar_2023":26
+      "attendeddays": {
+        "Nov_2022": 25,
+        "Dec_2022": 21,
+        "Jan_2023": 23,
+        "Feb_2023": 22,
+        "Mar_2023": 26
       },
-      "leavedays":{
-        "Nov_2022":1,
-        "Dec_2022":3,
-        "Jan_2023":2,
-        "Feb_2023":1,
-        "Mar_2023":0
+      "leavedays": {
+        "Nov_2022": 1,
+        "Dec_2022": 3,
+        "Jan_2023": 2,
+        "Feb_2023": 1,
+        "Mar_2023": 0
       }
     },
     {
@@ -153,7 +153,7 @@
       "city": "RS Nagar",
       "street": "99552 Transport Hill",
       "pincode": 60075,
-      "qualication": "btech",
+      "qualification": "btech",
       "passedoutyear": 2018,
       "skillsets": "HTML, CSS, React",
       "workingdomain": "Front End Designing",
@@ -165,19 +165,19 @@
       "employeepf": 1800,
       "employerpf": 1800,
       "variablepay": 0,
-      "attendeddays":{
-        "Nov_2022":23,
-        "Dec_2022":23,
-        "Jan_2023":26,
-        "Feb_2023":23,
-        "Mar_2023":24
+      "attendeddays": {
+        "Nov_2022": 23,
+        "Dec_2022": 23,
+        "Jan_2023": 26,
+        "Feb_2023": 23,
+        "Mar_2023": 24
       },
-      "leavedays":{
-        "Nov_2022":2,
-        "Dec_2022":1,
-        "Jan_2023":0,
-        "Feb_2023":1,
-        "Mar_2023":1
+      "leavedays": {
+        "Nov_2022": 2,
+        "Dec_2022": 1,
+        "Jan_2023": 0,
+        "Feb_2023": 1,
+        "Mar_2023": 1
       }
     },
     {
@@ -198,7 +198,7 @@
       "city": "RS Nagar",
       "street": "4 Aberg Crossing",
       "pincode": 600073,
-      "qualication": "btech",
+      "qualification": "btech",
       "passedoutyear": 2016,
       "skillsets": "Dotnet, Angular, Sql Server",
       "workingdomain": "Deployment",
@@ -210,19 +210,19 @@
       "employeepf": 1800,
       "employerpf": 1800,
       "variablepay": 0,
-      "attendeddays":{
-        "Nov_2022":21,
-        "Dec_2022":20,
-        "Jan_2023":26,
-        "Feb_2023":22,
-        "Mar_2023":25
+      "attendeddays": {
+        "Nov_2022": 21,
+        "Dec_2022": 20,
+        "Jan_2023": 26,
+        "Feb_2023": 22,
+        "Mar_2023": 25
       },
-      "leavedays":{
-        "Nov_2022":3,
-        "Dec_2022":4,
-        "Jan_2023":0,
-        "Feb_2023":2,
-        "Mar_2023":0
+      "leavedays": {
+        "Nov_2022": 3,
+        "Dec_2022": 4,
+        "Jan_2023": 0,
+        "Feb_2023": 2,
+        "Mar_2023": 0
       }
     }
   ]

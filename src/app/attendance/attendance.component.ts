@@ -23,7 +23,6 @@ export class AttendanceComponent {
   submit(){
     this.http.get("http://localhost:3000/employee").subscribe((data)=>{this.data=data;});
     for(var i in this.data){
-      alert(this.data[i].fullname);
       if(this.data[i].fullname.toLowerCase().includes(this.s) || this.data[i].employeeid.includes(this.s)){
         this.data1=this.data[i];
         this.find=true;
